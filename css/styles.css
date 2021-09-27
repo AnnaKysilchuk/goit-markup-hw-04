@@ -107,8 +107,8 @@ overflow: hidden;
   color: var(--main-color);
 }
 
-.link-auth 
-{
+.link-auth {
+  display: flex;
   color: var(--second-color);
   align-items: center;
 }
@@ -118,18 +118,16 @@ overflow: hidden;
   margin-right: 10px;
 }
 
+.auth-icon {
+  fill: currentColor;
+
+}
+
 .links-nav :hover,
 .links-nav :focus,
 .links-auth :hover,
-.links-auth :focus,
-.auth-icon :hover,
-.auth-icon :focus {
+.links-auth :focus {
   color: var(--mark-color);
-  fill: var(--mark-color);
-}
-
-.auth-icon :hover
-.auth-icon :focus {
   fill: var(--mark-color);
 }
 
